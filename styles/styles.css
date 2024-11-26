@@ -1,0 +1,15 @@
+.container
+{
+    border-color: black;
+    border-style: solid;
+}
+
+body
+{
+    background-color: rgb(173, 156, 130);
+}
+
+.title
+{
+    text-decoration: rgb(14, 15, 15) underline;
+}
