@@ -2,6 +2,7 @@
 let firstName = document.getElementById("firstName");
 let lastName = document.getElementById("lastName");
 let email = document.getElementById("email");
+let email2 = document.getElementById("email2")
 let button1 = document.getElementById("button1");
 let last5Students = document.getElementById("last5Students"); 
 let last5Array = [];
@@ -33,6 +34,7 @@ button1.addEventListener("click", () =>
         firstName.innerText = randomStudent.firstName;
         lastName.innerText = randomStudent.lastName;
         email.innerText = randomStudent.email;
+        email2.innerText = randomStudent.email2
 
         // Add upadte function to button
         last5Array.push(randomStudent); 
@@ -57,7 +59,7 @@ function updateLast5Display()
             let student = last5Array[i];
 
             let listContent = document.createElement("li");
-            listContent.innerText = `${student.firstName} ${student.lastName} - ${student.email}`;
+            listContent.innerText = `${student.firstName} ${student.lastName} : \n ${student.email} | ${student.email2}`;
             last5Students.appendChild(listContent);
         }
     }
