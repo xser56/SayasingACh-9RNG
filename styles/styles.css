@@ -17,3 +17,9 @@ body
 {
     text-decoration: rgb(14, 15, 15) underline;
 }
+
+.btn-primary
+{
+    background-color: rgb(126, 219, 83);
+    color: black;
+}
