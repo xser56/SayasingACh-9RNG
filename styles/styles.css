@@ -2,11 +2,15 @@
 {
     border-color: black;
     border-style: solid;
+    background-color: rgb(218, 204, 80);
 }
 
 body
 {
     background-color: rgb(173, 156, 130);
+    background-image:  url("../assets/classroom-2787754_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .title
